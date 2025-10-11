@@ -1,4 +1,4 @@
-# Exploring Syntax: Kotlin, Swift y Dart
+# Explorando la sintaxis entre Kotlin, Swift y Dart
 
 Este repositorio contiene ejercicios prácticos y ejemplos de sintaxis y conceptos clave en Kotlin, Swift y Dart/Flutter, basados en el libro "Exploring Kotlin, Swift y Dart Syntax". El objetivo del proyecto es proporcionar un recurso centralizado para aprender y comparar estos tres lenguajes de programación modernos, sus paradigmas, patrones de diseño y desarrollo multiplataforma.
 
