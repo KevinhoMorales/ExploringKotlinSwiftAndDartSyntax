@@ -1,54 +1,158 @@
-# Explorando la sintaxis entre Kotlin, Swift y Dart
+# Explorando la sintaxis de Kotlin, Swift y Dart
 
-Este repositorio contiene ejercicios prácticos y ejemplos de sintaxis y conceptos clave en Kotlin, Swift y Dart/Flutter, basados en el libro "Exploring Kotlin, Swift y Dart Syntax". El objetivo del proyecto es proporcionar un recurso centralizado para aprender y comparar estos tres lenguajes de programación modernos, sus paradigmas, patrones de diseño y desarrollo multiplataforma.
+Este repositorio contiene los **ejercicios prácticos** del libro:
 
-## Estructura del proyecto
+**Explorando la sintaxis de Kotlin, Swift y Dart**
 
-El proyecto está dividido en tres subproyectos, uno por lenguaje, donde se organizan todos los ejercicios del libro:
+El objetivo de este repositorio es acompañar el contenido del libro con ejemplos de código en tres lenguajes modernos utilizados en el desarrollo mobile:
 
-### 📱 ExploringKotlinSyntax
-Contiene ejemplos y ejercicios de sintaxis, programación funcional, patrones de diseño, interoperabilidad con Java, manejo de concurrencia con Coroutines, desarrollo multiplataforma con Kotlin Multiplatform, optimización de rendimiento y uso de bibliotecas populares en Kotlin.
+- Kotlin
+- Swift
+- Dart
 
-### 🍎 ExploringSwiftSyntax
-Incluye ejercicios sobre sintaxis de Swift, interoperabilidad con Objective-C, programación funcional, patrones de diseño, concurrencia con Swift Concurrency, desarrollo multiplataforma dentro del ecosistema Apple, optimización de rendimiento y uso de frameworks y bibliotecas como SwiftUI, Combine y Vapor.
+Cada capítulo del libro incluye ejercicios prácticos que pueden encontrarse en este repositorio.
 
-### 🎯 ExploringDartSyntax
-Contiene ejercicios prácticos de Dart y Flutter, incluyendo programación declarativa con widgets, manejo de estado, patrones de diseño, optimización de rendimiento, desarrollo multiplataforma para Android, iOS, web y escritorio, y bibliotecas comunes de Flutter.
+---
 
-## Objetivos del proyecto
+## Estructura del repositorio
 
-- Aprender y practicar la sintaxis y conceptos clave de Kotlin, Swift y Dart/Flutter.
-- Comparar cómo se implementan paradigmas de programación, patrones de diseño y buenas prácticas en los tres lenguajes.
-- Proporcionar ejemplos prácticos que puedan ser utilizados como referencia en proyectos reales.
-- Fomentar el desarrollo multiplataforma y el uso eficiente de frameworks y bibliotecas.
+Este repositorio está organizado como un **monorepo** con tres proyectos principales.
+
+ExploringKotlinSyntax → Ejemplos en Kotlin (Android / JVM)  
+ExploringSwiftSyntax → Ejemplos en Swift (iOS / Apple ecosystem)  
+ExploringDartSyntax → Ejemplos en Dart (Flutter)
+
+Dentro de cada proyecto encontrarás carpetas organizadas por capítulos.
+
+Ejemplo:
+
+chapters/
+chapter01/
+chapter02/
+chapter03/
+...
+
+Cada capítulo contiene ejercicios con tres niveles de dificultad:
+
+- basic
+- intermediate
+- advanced
+
+---
 
 ## Cómo usar este repositorio
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone https://github.com/tu-usuario/ExploringKotlinSwiftAndDartSyntax.git
-   cd ExploringKotlinSwiftAndDartSyntax
+Para aprovechar mejor el contenido:
+
+1. Lee el capítulo correspondiente en el libro.
+2. Abre el proyecto del lenguaje que te interese.
+3. Navega hasta la carpeta del capítulo.
+4. Ejecuta los ejemplos en tu entorno de desarrollo.
+5. Modifica el código y experimenta.
+
+La mejor forma de aprender programación es **experimentar con el código**.
+
+---
+
+## Cómo ejecutar los ejemplos
+
+A continuación te explicamos paso a paso cómo ejecutar los ejercicios en cada lenguaje para ver la salida impresa y el comportamiento del código.
+
+### Ejecutar ejemplos en Kotlin (Android Studio)
+
+1. Abre el proyecto **ExploringKotlinSyntax** en Android Studio.
+2. Navega hasta la carpeta correspondiente al capítulo:
+
+   ```
+   chapters/chapterXX/
    ```
 
-2. **Abrir el subproyecto correspondiente a tu lenguaje en tu IDE favorito:**
-   - **Kotlin:** Android Studio / IntelliJ IDEA
-   - **Swift:** Xcode
-   - **Dart/Flutter:** Visual Studio Code / Android Studio
+   (donde `XX` es el número del capítulo, por ejemplo `chapter03`, `chapter04`, etc.)
 
-3. **Explorar los ejercicios y ejecutarlos según las instrucciones de cada carpeta.**
+3. Abre el archivo del ejercicio que quieras ejecutar (basic, intermediate o advanced).
+4. Ejecuta el ejemplo usando el botón **Run** o bien la función `main` si está disponible junto al archivo.
 
-## Recursos adicionales
+Muchos ejemplos imprimen los resultados usando `println()`. Puedes ver la salida en la consola **Run** o **Logcat** de Android Studio.
 
-- [Documentación oficial de Kotlin](https://kotlinlang.org/docs/)
-- [Documentación oficial de Swift](https://docs.swift.org/swift-book/)
-- [Documentación oficial de Dart y Flutter](https://dart.dev/guides)
-- [Flutter Documentation](https://docs.flutter.dev/)
-- Comunidades activas y foros para Kotlin, Swift y Flutter
+### Ejecutar ejemplos en Swift (Xcode)
 
-## Contribuciones
+1. Abre el proyecto **ExploringSwiftSyntax** en Xcode.
+2. Navega por las carpetas de capítulos hasta encontrar el archivo que te interese.
+3. Ejecuta la app o las funciones de ejemplo desde el proyecto.
 
-Se aceptan contribuciones que agreguen ejercicios, mejoras en la documentación o ejemplos adicionales de buenas prácticas en Kotlin, Swift y Dart/Flutter. Por favor, abre un pull request y describe los cambios realizados.
+Muchos ejemplos imprimen los resultados usando `print()`. La salida aparece en la **Xcode Debug Console**.
 
-## Licencia
+### Ejecutar ejemplos en Dart (Flutter)
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+1. Abre el proyecto **ExploringDartSyntax** en VSCode o Android Studio.
+2. Navega hasta la carpeta del capítulo:
+
+   ```
+   lib/chapters/chapterXX/
+   ```
+
+3. Muchos ejemplos se pueden ejecutar directamente o se invocan desde una función `main`. Usa el botón de ejecución o el comando `dart run` con la ruta del archivo.
+
+La salida se muestra en la **Debug Console** o en la **Terminal** del editor.
+
+---
+
+**Consejo:** No dudes en modificar el código y probar distintos valores. Experimentar es la mejor forma de interiorizar los conceptos. ¡Adelante!
+
+---
+
+## Lenguajes incluidos
+
+Este repositorio incluye ejemplos en:
+
+### Kotlin
+
+Proyecto Android utilizando:
+
+- Kotlin
+- Android Studio
+- Jetpack Compose
+
+### Swift
+
+Proyecto iOS utilizando:
+
+- Swift
+- Xcode
+- SwiftUI
+
+### Dart
+
+Proyecto Flutter utilizando:
+
+- Dart
+- Flutter
+- VSCode o Android Studio
+
+---
+
+## Versiones de lenguaje
+
+Los ejemplos fueron escritos utilizando versiones modernas de los lenguajes:
+
+Kotlin 1.9+  
+Swift 5.9+  
+Dart 3+
+
+Pequeños cambios de sintaxis pueden aparecer en versiones futuras, pero los conceptos explicados en el libro seguirán siendo válidos.
+
+---
+
+## Nota sobre el código
+
+Aunque la documentación y los comentarios están escritos en español, los nombres de variables, funciones y clases están en inglés siguiendo las convenciones habituales de programación.
+
+---
+
+## Sobre el libro
+
+Este repositorio es un complemento práctico del libro:
+
+**Explorando la sintaxis de Kotlin, Swift y Dart**
+
+El objetivo del libro es ayudar a los desarrolladores a comprender cómo se estructuran y escriben estos lenguajes modernos y facilitar la transición entre ellos.
